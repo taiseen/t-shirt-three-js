@@ -1,11 +1,19 @@
-import React from 'react'
+import Customizer from './pages/Customizer';
+import Home from './pages/Home';
+import Canvas from './canvas';
+
 
 const App = () => {
+
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello from Tailwind!
-    </h1>
+    <main className="app transition-all ease-in">
+
+      <Home />
+      <Canvas />
+      <Customizer />
+
+    </main>
   )
 }
 
-export default App
+export default App;
