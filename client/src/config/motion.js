@@ -22,6 +22,8 @@ export const slideAnimation = (direction) => {
   };
 };
 
+
+
 export const fadeAnimation = {
   initial: {
     opacity: 0,
@@ -37,6 +39,8 @@ export const fadeAnimation = {
   },
 };
 
+
+
 export const headTextAnimation = {
   initial: { x: 100, opacity: 0 },
   animate: { x: 0, opacity: 1 },
@@ -48,6 +52,8 @@ export const headTextAnimation = {
     duration: 0.3,
   },
 };
+
+
 
 export const headContentAnimation = {
   initial: { y: 100, opacity: 0 },
@@ -62,6 +68,8 @@ export const headContentAnimation = {
     delayChildren: 0.2,
   },
 };
+
+
 
 export const headContainerAnimation = {
   initial: { x: -100, opacity: 0, transition: { ...transition, delay: 0.5 } },
